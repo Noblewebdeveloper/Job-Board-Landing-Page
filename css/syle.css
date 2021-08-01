@@ -1,0 +1,73 @@
+nav{
+    padding: 0 15%;
+}
+
+#first{
+    margin-bottom: 5%;
+    padding: 15% 15% 15% 15%;
+    background-image: url(images/IMG_2948.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120%;
+}
+form{
+    background-color: white;
+}
+.find-job{
+    margin-bottom: 2%;
+}
+.number{
+    color: blue;
+    font-size: 2rem;
+}
+.welcome-text{
+    padding-bottom: 4%;
+}
+
+.form-control{
+    margin: 3%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    display: inline-block;
+}
+.find-job-btn{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.re{
+    text-align: center;
+}
+
+/* large screen */
+@media(min-width: 900px){
+    nav{
+        padding: 0 11%;
+    }
+    #first{
+        padding: 15% 11%;
+    }
+    .form-control{
+        width: 80%;
+    }
+    .form-group{
+        display: inline-block;
+    }
+    .find-job-btn{
+        margin-top: 3.35%;
+        width: 10%;
+        display: inline-block;
+    }
+}
+
+/* phone screen */
+@media(max-width: 500px){
+    #first{
+        height: 100%; 
+    }
+    h3{
+        color: white;
+    }
+}
